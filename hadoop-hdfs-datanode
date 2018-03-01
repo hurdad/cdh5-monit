@@ -1,0 +1,4 @@
+check process hadoop-hdfs-datanode with pidfile /var/run/hadoop-hdfs/hadoop-hdfs-datanode.pid
+	start program = "/usr/sbin/service hadoop-hdfs-datanode start"
+	stop program = "/usr/sbin/service hadoop-hdfs-datanode stop"
+

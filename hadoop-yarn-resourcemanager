@@ -1,0 +1,4 @@
+check process hadoop-yarn-resourcemanager with pidfile /var/run/hadoop-yarn/yarn-yarn-resourcemanager.pid
+	start program = "/usr/sbin/service hadoop-yarn-resourcemanager start"
+	stop program = "/usr/sbin/service hadoop-yarn-resourcemanager stop"
+

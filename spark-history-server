@@ -1,0 +1,4 @@
+check process spark-history-server with pidfile /var/run/spark/spark-history-server.pid
+	start program = "/usr/sbin/service spark-history-server start"
+	stop program = "/usr/sbin/service spark-history-server stop"
+

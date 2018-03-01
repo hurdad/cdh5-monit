@@ -1,0 +1,4 @@
+check process hive-metastore with pidfile /var/run/hive/hive-metastore.pid
+	start program = "/usr/sbin/service hive-metastore start"
+	stop program = "/usr/sbin/service hive-metastore stop"
+
