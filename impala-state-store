@@ -1,0 +1,4 @@
+check process impala-state-store with pidfile /var/run/impala/statestored-impala.pid
+	start program = "/usr/sbin/service impala-state-store start"
+	stop program = "/usr/sbin/service impala-state-store stop"
+

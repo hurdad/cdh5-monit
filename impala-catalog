@@ -1,0 +1,4 @@
+check process impala-catalog with pidfile /var/run/impala/catalogd-impala.pid
+	start program = "/usr/sbin/service impala-catalog start"
+	stop program = "/usr/sbin/service impala-catalog stop"
+
